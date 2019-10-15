@@ -5,6 +5,8 @@ const Contact = () => {
     return (
         <>
             <Message
+                as='a'
+                name='contact'
                 className='contact-message'
                 icon='talk'
                 header='CONTACT'

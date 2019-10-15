@@ -18,7 +18,7 @@ const ProjectModals = (props) => {
                                 <Message.List>
                                     <Message.Item><strong>Length: </strong>Ongoing</Message.Item>
                                     <Message.Item><strong>Members: </strong>8</Message.Item>
-                                    <Message.Item><strong>Tech: </strong>React/React-Router/Redux/CSS/Node/Express/Swagger/Cypress/Jest</Message.Item>
+                                    <Message.Item><strong>Tech: </strong>React / React-Router / Redux / CSS / Node / Express / Swagger / Cypress / Jest</Message.Item>
                                     <Message.Item><strong>Role: </strong>Full Stack</Message.Item>
                                 </Message.List>   
                                 <Message.Header style={{marginTop: '25px'}}>Important Links</Message.Header>
@@ -45,7 +45,7 @@ const ProjectModals = (props) => {
                                 <Message.List>
                                     <Message.Item><strong>Length: </strong>1 Week</Message.Item>
                                     <Message.Item><strong>Members: </strong>8</Message.Item>
-                                    <Message.Item><strong>Tech: </strong>React/React-Router/Redux/Nodejs/Express/Yaml/Jest/Postgres</Message.Item>
+                                    <Message.Item><strong>Tech: </strong>React / React-Router / Redux/Nodejs / Express / Yaml / Jest / Postgres</Message.Item>
                                     <Message.Item><strong>Role: </strong>Back-end Engineer</Message.Item>
                                 </Message.List>   
                                 <Message.Header style={{marginTop: '25px'}}>Important Links</Message.Header>
@@ -71,7 +71,7 @@ const ProjectModals = (props) => {
                                 <Message.List>
                                     <Message.Item><strong>Length: </strong>1 Week</Message.Item>
                                     <Message.Item><strong>Members: </strong>6</Message.Item>
-                                    <Message.Item><strong>Tech: </strong>React/React-Router/Redux/Material-UI/Java</Message.Item>
+                                    <Message.Item><strong>Tech: </strong>React / React-Router / Redux / Material-UI / Java</Message.Item>
                                     <Message.Item><strong>Role: </strong>Front-End Developer</Message.Item>
                                 </Message.List>   
                                 <Message.Header style={{marginTop: '25px'}}>Important Links</Message.Header>
@@ -95,8 +95,8 @@ const ProjectModals = (props) => {
                                 <Message.Header>More Info</Message.Header>
                                 <Message.List>
                                     <Message.Item><strong>Length: </strong>5 Weeks</Message.Item>
-                                    <Message.Item><strong>Tech: </strong>WordPress/PhotoShop</Message.Item>
-                                    <Message.Item><strong>Role: </strong>Designer/WordPress Developer</Message.Item>
+                                    <Message.Item><strong>Tech: </strong>WordPress / PhotoShop</Message.Item>
+                                    <Message.Item><strong>Role: </strong>Designer / WordPress Developer</Message.Item>
                                 </Message.List>   
                                 <Message.Header style={{marginTop: '25px'}}>Client</Message.Header>
                                 <p>West Central Alabama Area Health Education Center</p>
@@ -117,8 +117,8 @@ const ProjectModals = (props) => {
                                 <Message.Header>More Info</Message.Header>
                                 <Message.List>
                                     <Message.Item><strong>Length: </strong>6 Weeks</Message.Item>
-                                    <Message.Item><strong>Tech: </strong>WordPress/PhotoShop</Message.Item>
-                                    <Message.Item><strong>Role: </strong>Designer/WordPress Developer</Message.Item>
+                                    <Message.Item><strong>Tech: </strong>WordPress / PhotoShop</Message.Item>
+                                    <Message.Item><strong>Role: </strong>Designer / WordPress Developer</Message.Item>
                                 </Message.List>   
                                 <Message.Header style={{marginTop: '25px'}}>Client</Message.Header>
                                 <p>Tullahoma Day Care Center</p>
@@ -139,8 +139,8 @@ const ProjectModals = (props) => {
                                 <Message.Header>More Info</Message.Header>
                                 <Message.List>
                                     <Message.Item><strong>Length: </strong>10 Days</Message.Item>
-                                    <Message.Item><strong>Tech: </strong>HTML/CSS/JQUERY</Message.Item>
-                                    <Message.Item><strong>Role: </strong>UI Developer</Message.Item>
+                                    <Message.Item><strong>Tech: </strong>HTML / CSS / JQUERY</Message.Item> 
+                                    <Message.Item><strong>Role: </strong>UI Developer</Message.Item> 
                                 </Message.List>   
                                 <Message.Header style={{marginTop: '25px'}}>Client</Message.Header>
                                 <p>Voxel Enterpries Inc.</p>

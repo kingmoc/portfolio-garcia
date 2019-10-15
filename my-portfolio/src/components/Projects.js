@@ -15,7 +15,10 @@ import ProjectModals from '../components/Project-Modals'
 const Projects = () => {
     return (
         <>
+            
             <Message
+                as='a'
+                name='projects'
                 className='projectsMessage'
                 icon='sitemap'
                 header='PROJECTS'
@@ -23,7 +26,7 @@ const Projects = () => {
                 color='black'
                 floating
             />
-
+            {/* <a name='projects'></a> */}
             <ProjectModals 
                 geo={geo}
                 betterPro={betterPro}

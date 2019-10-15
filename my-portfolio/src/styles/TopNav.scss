@@ -3,7 +3,7 @@
 }
 
 .divider3 {
-    width: 60%;
+    width: 80%;
     margin: 1rem auto !important
 }
 
@@ -12,4 +12,14 @@
     position: absolute;
     left: 0px;
     top: 10px;
+}
+
+.name {
+    font-size: 3rem !important;
+    text-align: center;
+}
+
+.social {
+    text-align: center;
+    display: block !important;
 }
