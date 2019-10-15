@@ -1,10 +1,21 @@
 import React from 'react';
 import './styles/App.scss';
 
+// Components
+import TopNav from './components/TopNav'
+import Hero from './components/Hero'
+import Why from './components/Why'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
+
 function App() {
   return (
     <div className="App">
-      <h1> Hello From App </h1>
+      <TopNav />
+      <Hero />
+      <Why />
+      <Projects />
+      <Contact />
     </div>
   );
 }
