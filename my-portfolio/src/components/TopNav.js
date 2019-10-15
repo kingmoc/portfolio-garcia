@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Grid, Image, Header, Container, Icon, List, Divider, Sidebar, Segment, Menu, Sticky } from 'semantic-ui-react'
+import { Image, Header, Container, Icon, List, Divider, Sidebar, Menu } from 'semantic-ui-react'
 import logo from '../img/tshirt.png'
 
 //components 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Message, Image, Modal, Header, Icon, List } from 'semantic-ui-react';
+import { Message } from 'semantic-ui-react';
 
 //images
 import geo from '../img/geo.png'

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Message, Segment, Step, Icon } from 'semantic-ui-react';
+import { Message, Step, Icon } from 'semantic-ui-react';
 
 const Why = () => {
     return (
