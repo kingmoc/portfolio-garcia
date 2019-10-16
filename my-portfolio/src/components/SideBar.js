@@ -1,5 +1,8 @@
 import React from 'react';
-import { Menu, Icon } from 'semantic-ui-react';
+import { Menu, Icon, Modal } from 'semantic-ui-react';
+
+//imports
+import About from './About'
 
 const SideBarMenu = (props) => {
 
@@ -9,10 +12,17 @@ const SideBarMenu = (props) => {
 
     return (
         <>
-            <Menu.Item as='a' onClick={close}>
-                <Icon name='info' />
-                About
-            </Menu.Item>
+            <Modal
+                closeIcon 
+                trigger={
+                    <Menu.Item as='a'>
+                        <Icon name='info' />
+                        About
+                    </Menu.Item>
+                }
+            >
+                <About />    
+            </Modal>
             <Menu.Item as='a' href='#projects' onClick={close}>
                 <Icon name='sitemap' />
                 Projects

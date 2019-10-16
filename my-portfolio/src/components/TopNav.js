@@ -38,22 +38,24 @@ const TopNav = () => {
                     </Container>
                     <Image src={logo} size='small' centered/>
                     <Header className='name'>Joseph C.A. Garcia</Header>
+                    <Header className='job-title'>Full Stack Engineer</Header>
                     <Divider className='divider3'></Divider>
                     <List horizontal className='social'>
-                        <List.Item> 
+                        <List.Item as='a' href='https://twitter.com/bishopGarcia'> 
                             <Icon 
                                 name='twitter' 
                                 size='huge'
                                 color='blue'
                             /> 
-                        </List.Item>
-                        <List.Item> 
+                        </List.Item >
+                        <List.Item as='a' href='https://github.com/kingmoc'> 
                             <Icon 
                                 name='github' 
                                 size='huge' 
+                                color='black'
                             /> 
                         </List.Item>
-                        <List.Item> 
+                        <List.Item as='a' href='https://www.linkedin.com/in/jgarcia85/'> 
                             <Icon 
                                 className='linked'
                                 name='linkedin' 
