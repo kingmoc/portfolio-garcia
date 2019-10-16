@@ -23,7 +23,7 @@ const SideBarMenu = (props) => {
             >
                 <About />    
             </Modal>
-            <Menu.Item as='a' href='#projects' onClick={close}>
+            <Menu.Item as='a' href='#projects' onClick={close} className='side-menu'>
                 <Icon name='sitemap' />
                 Projects
             </Menu.Item>

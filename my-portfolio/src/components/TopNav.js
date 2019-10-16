@@ -4,6 +4,7 @@ import logo from '../img/tshirt.png'
 
 //components 
 import SideBarMenu from './SideBar'
+import TopNavDesktop from './TopNav-desktop'
 
 const TopNav = () => {
 
@@ -11,32 +12,36 @@ const TopNav = () => {
 
     return (
         <>
-        {/* // <Container textAlign='center' as={Menu} fixed='top'> */}
-            {/* <Sidebar.Pushable > */}
-                <Sidebar
-                    as={Menu}
-                    direction='right'
-                    animation='overlay'
-                    icon='labeled'
-                    inverted
-                    onHide={() => setVisible(false)}
-                    vertical
-                    visible={visible}
-                    width='thin'
-                >
-                    <SideBarMenu setVisible={setVisible}/>
-                </Sidebar>
+            <Sidebar
+                as={Menu}
+                direction='right'
+                animation='overlay'
+                icon='labeled'
+                inverted
+                onHide={() => setVisible(false)}
+                vertical
+                visible={visible}
+                width='thin'
+            >
+                <SideBarMenu setVisible={setVisible}/>
+            </Sidebar>
 
-                {/* <Sidebar.Pusher > */}
-                <Container as={Menu} fixed='top' className='burger-container'>
-                    <Icon 
-                        name='th'
-                        size='big'
-                        className='burger'
-                        onClick={() => setVisible(!visible)}
-                    />
-                    </Container>
-                    <Image src={logo} size='small' centered/>
+            <Container as={Menu} fixed='top' className='burger-container'>
+                <Icon 
+                    name='th'
+                    size='big'
+                    className='burger'
+                    onClick={() => setVisible(!visible)}
+                />
+            </Container>
+
+            {/* Nav for Desktop */}
+            <TopNavDesktop />
+
+             {/* Logo until Social */}
+            <section>
+                <Image src={logo} size='small' centered/>
+                <div className='name-title-social'>
                     <Header className='name'>Joseph C.A. Garcia</Header>
                     <Header className='job-title'>Full Stack Engineer</Header>
                     <Divider className='divider3'></Divider>
@@ -63,9 +68,8 @@ const TopNav = () => {
                             /> 
                         </List.Item>
                     </List>
-                {/* </Sidebar.Pusher> */}
-            {/* </Sidebar.Pushable> */}
-        {/* </Container> */}
+                </div>
+            </section>
         </>
     );
 };

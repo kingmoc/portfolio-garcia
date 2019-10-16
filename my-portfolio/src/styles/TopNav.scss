@@ -18,6 +18,10 @@
         font-size: 3em !important;
         left: 10px;
     }
+
+    @include lg {
+        display: none !important;
+    }
 }
 
 .burger-container {
@@ -44,4 +48,35 @@
 .social {
     text-align: center;
     display: block !important;
+}
+
+section {
+   
+    @include lg {
+        display: flex !important;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    img {
+
+        @include lg {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        }
+    }
+}
+
+.desktop-menu {
+
+    // @include md {
+    //     display: none !important;
+    // }
+
+    display: none !important;
+    
+    @include lg {
+        justify-content: center;
+        display: flex !important;
+    }
 }
