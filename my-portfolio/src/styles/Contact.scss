@@ -1,0 +1,22 @@
+.message-contact {
+    margin-top: 35px !important;
+    
+    @include md {
+        text-align: center;
+    }
+
+    .icon-contact {
+        
+        @include md {
+            margin-left: 220px;
+            margin-right: 0px !important;
+        }
+    }
+
+    .header-contact {
+        
+        @include md {
+            width: 60%;
+        }
+    }
+}

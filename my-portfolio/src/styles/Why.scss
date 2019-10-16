@@ -1,6 +1,34 @@
 .message-why {
     margin-top: 35px !important;
-    color: red;
+    
+    @include md {
+        text-align: center;
+    }
+    @include sm {
+        text-align: center;
+    }
+    
+    .icon-why {
+        
+        @include md {
+            margin-left: 140px;
+            margin-right: 0px !important;
+        }
+        @include sm {
+            margin-left: 140px;
+            margin-right: 0px !important;
+        }
+    }
+
+    .header-why {
+        
+        @include md {
+            width: 80%;
+        }
+        @include sm {
+            width: 80%;
+        }
+    }
 }
 
 .why-title {
@@ -10,3 +38,35 @@
 .why-des {
     line-height: 25px;
 }
+
+.group-why {
+    
+    @include md {
+        flex-direction: column !important;
+        width: 95% !important;
+        margin: 0 auto !important;
+    }
+
+    .step-why {
+
+        @include md {
+            width: 100% !important;
+        }
+
+        .icon-why-group {
+
+            @include md {
+                margin-right: 20px !important;
+                color: purple;
+            }
+        }
+
+        .file {
+
+            @include md {
+                margin-right: 40px !important;
+            }
+        }
+    }
+}
+

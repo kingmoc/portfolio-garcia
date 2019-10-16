@@ -13,6 +13,20 @@
     position: absolute;
     left: 0px;
     top: 10px;
+
+    @include md {
+        font-size: 3em !important;
+        left: 10px;
+    }
+}
+
+.burger-container {
+
+    @include md {
+        background: none !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
 }
 
 .name {

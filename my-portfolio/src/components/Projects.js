@@ -1,5 +1,5 @@
 import React from 'react';
-import { Message } from 'semantic-ui-react';
+import { Message, Icon } from 'semantic-ui-react';
 
 //images
 import geo from '../img/geo.png'
@@ -15,18 +15,13 @@ import ProjectModals from '../components/Project-Modals'
 const Projects = () => {
     return (
         <>
-            
-            <Message
-                as='a'
-                name='projects'
-                className='projectsMessage'
-                icon='sitemap'
-                header='PROJECTS'
-                size='huge'
-                color='black'
-                floating
-            />
-            {/* <a name='projects'></a> */}
+            <Message icon size='huge' floating className='message-projects' color='black' as='a' name='projects'>
+                <Icon name='sitemap' className='icon-projects'/>
+                <Message.Content>
+                    <Message.Header className='header-projects'>PROJECTS</Message.Header>
+                </Message.Content>
+            </Message>
+
             <ProjectModals 
                 geo={geo}
                 betterPro={betterPro}

@@ -28,7 +28,7 @@ const TopNav = () => {
                 </Sidebar>
 
                 {/* <Sidebar.Pusher > */}
-                <Container as={Menu} fixed='top'>
+                <Container as={Menu} fixed='top' className='burger-container'>
                     <Icon 
                         name='th'
                         size='big'

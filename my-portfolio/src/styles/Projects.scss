@@ -1,7 +1,22 @@
-.projectsMessage {
+.message-projects {
     margin-top: 35px !important;
-}
+    
+    @include md {
+        text-align: center;
+    }
 
-p {
-    line-height: 30px !important;
+    .icon-projects {
+        
+        @include md {
+            margin-left: 240px;
+            margin-right: 0px !important;
+        }
+    }
+
+    .header-projects {
+        
+        @include md {
+            width: 50%;
+        }
+    }
 }
