@@ -12,7 +12,7 @@ const Why = () => {
                 size='huge'
             />
 
-            <Step.Group size='huge' widths={3}>
+            <Step.Group size='huge' widths={3} fluid>
                 <Step active>
                     <Icon name='battery full' color='red'/>
                     <Step.Content>
