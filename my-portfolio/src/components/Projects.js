@@ -16,10 +16,12 @@ const Projects = () => {
     return (
         <>
             <Message icon size='huge' floating className='message-projects' color='black' as='a' name='projects'>
-                <Icon name='sitemap' className='icon-projects'/>
-                <Message.Content>
-                    <Message.Header className='header-projects'>PROJECTS</Message.Header>
-                </Message.Content>
+                <div className='message-cont'>
+                    <Icon name='sitemap' className='icon-projects' size='huge'/>
+                    <Message.Content>
+                        <Message.Header className='header-projects'>PROJECTS</Message.Header>
+                    </Message.Content>
+                </div>
             </Message>
 
             <ProjectModals 

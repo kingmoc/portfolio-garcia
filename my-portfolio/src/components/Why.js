@@ -5,10 +5,12 @@ const Why = () => {
     return (
         <> 
             <Message icon size='huge' floating className='message-why' color='black'>
-                <Icon name='thumbtack' className='icon-why'/>
-                <Message.Content className='message-content'>
-                    <Message.Header className='header-why'>Why We Should Work Together ...</Message.Header>
-                </Message.Content>
+                <div className='message-cont'>
+                    <Icon name='thumbtack' className='icon-why' size='huge' />
+                    <Message.Content className='message-content'>
+                        <Message.Header className='header-why'>Let's Work Together</Message.Header>
+                    </Message.Content>
+                </div>
             </Message>
             
             <Step.Group size='huge' widths={3} fluid className='group-why'>
