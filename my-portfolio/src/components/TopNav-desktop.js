@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal, Menu, Icon, Segment } from 'semantic-ui-react';
+import { Modal, Menu, Icon } from 'semantic-ui-react';
 
 //compontents 
 import About from './About'

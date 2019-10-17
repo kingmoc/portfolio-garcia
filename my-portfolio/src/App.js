@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles/App.scss';
 
 // Components
 import TopNav from './components/TopNav'

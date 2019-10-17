@@ -6,17 +6,44 @@
     }
 
     .icon-contact {
+
+        margin-left: 12px;
+
+        @include sm {
+            margin-left: 126px;
+            // margin-right: 0px !important;
+        }
         
         @include md {
             margin-left: 220px;
             margin-right: 0px !important;
         }
+
+        @include lg {
+            margin-left: 315px;
+            margin-right: 0px !important;
+        }
+        
+        @include xl {
+            margin-left: 400px;
+            margin-right: 0px !important;
+        }
     }
 
     .header-contact {
-        
+
+        font-size: 1.1rem;
+
         @include md {
             width: 60%;
+        }
+
+        @include lg {
+            width: 40%;
+        }
+
+        @include xl {
+            width: 40%;
         }
     }
 }
