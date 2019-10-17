@@ -40,7 +40,7 @@ const TopNav = () => {
 
              {/* Logo until Social */}
             <section>
-                <Image src={logo} size='small' centered/>
+                <Image src={logo} size='small' as='a' href='/'/>
                 <div className='name-title-social'>
                     <Header className='name'>Joseph C.A. Garcia</Header>
                     <Header className='job-title'>Full Stack Engineer</Header>
