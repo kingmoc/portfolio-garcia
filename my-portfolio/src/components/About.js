@@ -16,7 +16,7 @@ const About = () => {
                 <Modal.Description>
                     <Header>What's This All About?</Header>
                     <p>
-                    This is about life, love and family. I'm a proud father of two - husband and entrepreneur. I’ve always been intrigued by the power to create!</p><p>That is why I want to create for the world and do my best to bring smiles to many faces. I truly believe that is my calling … bring love and happiness to the world of creation.
+                    This is about life, love and family. I'm a proud father of three - husband and entrepreneur. I’ve always been intrigued by the power to create!</p><p>That is why I want to create for the world and do my best to bring smiles to many faces. I truly believe that is my calling … bring love and happiness to the world of creation.
                     </p>
                 </Modal.Description>
             </Modal.Content>
