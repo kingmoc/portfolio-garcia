@@ -25,7 +25,6 @@ const Contact = () => {
     }
 
     const handleSubmit = e => {
-        console.log(contactInfo)
 
         fetch("/", {
             method: "POST",
@@ -56,12 +55,10 @@ const Contact = () => {
             </Message>
             <Segment size='large' raised>
                 <Form
-                    // name='contact' 
                     className='contact-form' 
                     size='big'
                     onSubmit={handleSubmit} 
                 >
-                    {/* <input type="hidden" name="form-name" value="contact" /> */}
                     <Form.Input
                         required 
                         label='Name'
@@ -109,7 +106,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-
-
-/* <p className='header-contact'>joe.c.a.garcia@gmail.com</p> */
