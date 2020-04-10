@@ -1,10 +1,11 @@
 import React from 'react';
 import { Modal, Button, Icon, Header } from 'semantic-ui-react';
 
-const Extras = () => {
+const Extras = (props) => {
     return (
         <>
             <Modal
+                onClose={() => props.setOpen(false)}
                 closeIcon
                 // dimmer='blurring' 
                 trigger={
@@ -43,6 +44,6 @@ const Extras = () => {
             </Modal>
         </>
     );
-};
+}
 
-export default Extras;
+export default Extras

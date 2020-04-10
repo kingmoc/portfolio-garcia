@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Modal, Menu, Icon } from 'semantic-ui-react';
 
 //compontents 
 import About from './About'
 
 const TopNavDesktop = () => {
+
+    const [open, setOpen] = useState(false)
+
     return (
         <>  
             <Menu inverted size='massive' fixed='top' className='desktop-menu'>
                 <Modal
+                    open={open}
+                    onOpen={() => setOpen(true)}
+                    onClose={() => setOpen(false)}
                     closeIcon 
                     trigger={
                         <Menu.Item as='a'>
@@ -17,7 +23,7 @@ const TopNavDesktop = () => {
                         </Menu.Item>
                     }
                 >
-                    <About />    
+                    <About setOpen={setOpen}/>    
                 </Modal>
                 <Menu.Item as='a' href='#projects' className='side-menu'>
                     <Icon name='sitemap' />

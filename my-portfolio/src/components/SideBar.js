@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Menu, Icon, Modal } from 'semantic-ui-react';
 
 //imports
 import About from './About'
 
 const SideBarMenu = (props) => {
+
+    const [open, setOpen] = useState(false)
 
     const close = () => {
         props.setVisible(false)
@@ -13,6 +15,9 @@ const SideBarMenu = (props) => {
     return (
         <>
             <Modal
+                open={open}
+                onOpen={() => setOpen(true)}
+                onClose={() => setOpen(false)}
                 closeIcon 
                 trigger={
                     <Menu.Item as='a'>
@@ -21,7 +26,7 @@ const SideBarMenu = (props) => {
                     </Menu.Item>
                 }
             >
-                <About />    
+                <About setOpen={setOpen}/>    
             </Modal>
             <Menu.Item as='a' href='#projects' onClick={close} className='side-menu'>
                 <Icon name='sitemap' />

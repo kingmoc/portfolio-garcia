@@ -7,7 +7,7 @@ import famPic from '../img/fam-pic.png'
 //component
 import Extras from './Extras'
 
-const About = () => {
+const About = (props) => {
     return (
         <>
             <Modal.Header>Some More Insight</Modal.Header>
@@ -21,7 +21,7 @@ const About = () => {
                 </Modal.Description>
             </Modal.Content>
             <Modal.Actions>
-                <Extras />
+                <Extras setOpen={props.setOpen}/>
             </Modal.Actions>
         </>
     );
