@@ -56,13 +56,12 @@ const Contact = () => {
             </Message>
             <Segment size='large' raised>
                 <Form
-                    name='contact' 
+                    // name='contact' 
                     className='contact-form' 
                     size='big'
-                    netlify 
-                    netlify-honeypot="bot-field"
                     onSubmit={handleSubmit} 
                 >
+                    {/* <input type="hidden" name="form-name" value="contact" /> */}
                     <Form.Input
                         required 
                         label='Name'
