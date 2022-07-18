@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Message, Icon, Header, Segment, Form, TextArea, Button } from 'semantic-ui-react';
+import { Message, Icon, Segment, Form, TextArea, Button } from 'semantic-ui-react';
 
 const Contact = () => {
 
